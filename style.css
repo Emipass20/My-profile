@@ -1,0 +1,79 @@
+@import url("component/card.css");
+@import url("component/picture.css");
+
+body{
+  background-color:#E5FDD1;
+}
+
+h1{
+  color:white;
+  background-image: url("image/mer.jpg");
+  font-size:100px;
+  font-family: sans-serif;
+  text-align: center;
+
+}
+
+h2, h3 {
+  font-family: 'Roboto', sans-serif;
+  color:#205E61;
+}
+
+h2 {
+  text-align: center;
+}
+
+h3{
+  font-size: 30px;
+  padding-block-start: 20px;
+  padding-block-end: 5px;
+}
+
+p{
+  text-align: center;
+  font-family: 'Roboto Condensed', sans-serif;
+}
+
+a{
+  color:#205E61;
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+a:hover{
+  color:#F9F54B;
+}
+
+div{
+  background: white;
+}
+
+
+.newsletter{
+  margin: 0 auto;
+  width: 1000px;
+  text-align: center;
+  padding-bottom: 4px;
+}
+
+.presentation{
+  text-align: center;
+}
+
+.container {
+  margin: 0 auto;
+  text-align: center;
+  padding-bottom: 4px;
+}
+
+#button-contact{
+  background-color:#205E61;
+  padding: 19px;
+  font-siez:15px;
+  color:white;
+  font-family:'Roboto Condensed', sans-serif;
+  margin: 16px auto;
+  display: block;
+  width: 160px;
+  border-radius: 16px;
+}
